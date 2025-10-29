@@ -21,7 +21,7 @@ app.post("/create-order", async (req, res) => {
     const { username } = req.body;
 
     const orderPayload = {
-      order_amount: 1.0,
+      order_amount: 199.0,
       order_currency: "INR",
       order_id: "activation_" + Date.now(),
       customer_details: {
